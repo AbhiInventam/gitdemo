@@ -3,7 +3,8 @@ import axios from "axios";
 
 export const getAlbumData = createAsyncThunk("album/getAlbumData", async () => {
   const response = await axios.get(
-    "https://jsonplaceholder.typicode.com/albums"
+    // "https://jsonplaceholder.typicode.com/albums" // for Album
+    "https://jsonplaceholder.typicode.com/photos"
   );
 
   console.log("response", response);
