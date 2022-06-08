@@ -45,6 +45,8 @@ const Album = () => {
               <h4>Id:- {albumitem.id}</h4>
               <h5>UserId:- {albumitem.userId}</h5>
               <p>Title:- {albumitem.title}</p>
+              {/* <img src={albumitem.url}></img> */}
+              <img src={albumitem.thumbnailUrl}></img>
               <br />
               <hr />
             </div>
